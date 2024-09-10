@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* body{
+    position: relative;
+} */
+
+/* .all-btns {
+    position: relative;
+} */
+.all-btns .display {
+    /* position: absolute; */
+    width: 2px;
+    height: 20px;
+    background-color: gray;
+    left: 20px;
+    top: 10px;
+    opacity: 1;
+}
+
+/* .all-btns input:focus + p {
+    display: none;
+} */
+ .blinker {
+    animation: blink 800ms infinite;
+ }
+
+@keyframes blink {
+    from { opacity: 1; }
+    to { opacity: 0; }
+}
+.all{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: rgb(151, 148, 148);
+    width: 600px;
+    height: 600px;
+    padding: 20px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+}
+.all-btns{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+}
+.all-btns .second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.all-btns .second .ash{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(38, 36, 36);
+    border-radius: 20px;
+}
+.all-btns .first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.all-btns .first .green{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background-color:  rgba(228, 243, 231, 0.566);
+    border-radius: 20px;
+}
+
+.all-btns .third{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+.third .ash{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(38, 36, 36);
+    border-radius: 20px;
+    gap: 20px;
+}
+.all-btns .forth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+.all-btns .forth .ash{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(38, 36, 36);
+    border-radius: 20px;
+    gap: 20px;
+}
+.all-btns .fifth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.all-btns .fifth .long{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50px;
+    background-color: rgb(38, 36, 36);
+    border-radius: 20px;
+    gap: 20px;
+}
+.all-btns .fifth .ashh{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 50px;
+    background-color: rgb(38, 36, 36);
+    border-radius: 20px;
+    gap: 20px;
+}
+.all-btns .fifth .ashh .orange{
+    display: flex;
+    justify-content: center;
+        align-items: center;
+    width: 25%;
+    height: 50px;
+    background-color: rgb(38, 36, 36);
+    border-radius: 20px;
+    gap: 20px;
+}
+.all-btns .row .orange{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 100%; */
+    height: 50px;
+    background-color: orange;
+    border-radius: 20px;
+    gap: 20px;
+}
+.all-btns p{
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+}
+.all-btns .btn:hover{
+    cursor: pointer;
+
+}
